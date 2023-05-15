@@ -1,0 +1,19 @@
+.imagens {
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  figure {
+    margin: 15px;
+    text-align: center;
+  }
+  
+  figcaption {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 10px;
+  }

@@ -1,0 +1,7 @@
+@media (max-width: 414px) {
+    .my-element {
+      width: 100%; /* preencher a largura da tela */
+      font-size: 14px; /* aumentar o tamanho da fonte para torná-la mais legível */
+      padding: 9px; /* aumentar o espaçamento ao redor do elemento */
+    }
+  }

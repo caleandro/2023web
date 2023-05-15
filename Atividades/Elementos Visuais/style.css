@@ -1,0 +1,10 @@
+img {
+    border: 2px solid rgb(244, 240, 240);
+    padding: 10px;
+  }
+  
+  body {
+    background-image: url(imagem-em-lente-convexa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

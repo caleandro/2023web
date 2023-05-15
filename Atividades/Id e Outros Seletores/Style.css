@@ -1,0 +1,14 @@
+* {
+    background-color: #841264;
+    color: #d58ebe;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+  }
+  .section {
+    border: 1px solid #540249;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #cc0074;
+  }

@@ -1,0 +1,49 @@
+p{
+	color: green;
+	font-size: 1.2em;
+	font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+<style type="text/css">
+
+div#banner
+
+{
+
+margin: 0 auto;
+
+padding: 0;
+
+width: 1001px;
+
+height: 320px;
+
+background: transparent url('../images/menu red.gif') no-repeat left bottom;
+
+ 
+
+}
+
+ 
+
+div#lowsrc_banner
+13.
+{
+
+margin: 0 auto;
+
+padding: 0;
+
+width: 1001px;
+
+height: 320px;
+
+background: #000 url('../images/menu_red_low.jpg') no-repeat left bottom;
+
+ 
+
+}
+
+</style>

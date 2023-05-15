@@ -1,0 +1,66 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, section, footer {
+    padding: 1em;
+  }
+  
+  /* Estilos para a barra de navegação */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #4CAF50;
+  }
+  
+  nav li a.active {
+    background-color: #4CAF50;
+  }
+  
+  /* Estilos para as pseudoclasses */
+  ul li a.hover:hover {
+    color: red;
+  }
+  
+  ul li a.focus:focus {
+    color: blue;
+  }
+  
+  ul li a.active:active {
+    color: green;
+  }
+  
+  ul li a.visited:visited {
+    color: purple;
+  }
+  
+  /* Estilos para os pseudoelementos */
+  ul li span:before {
+    content: "\25BA";
+    padding-right: 0.5em;
+  }
+  
+  ul li span:after {
+    ul li span:after }
+
