@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Equação de Segundo Grau</title>
+    <script>
+        window.onload = function() {
+            const a = 3;
+            const b = 4;
+            const c = -5;
+
+            
+            function calcularRaizesTradicional() {
+                const delta = b * b - 4 * a * c;
+                const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+                exibirResultado(x1, x2);
+            }
+
+            // Função com Arrow Function para calcular as raízes
+            const calcularRaizesArrow = () => {
+                const delta = b * b - 4 * a * c;
+                const x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                const x2 = (-b - Math.sqrt(delta)) / (2 * a);
+                exibirResultado(x1, x2);
+            }
+
+            function exibirResultado(x1, x2) {
+                const resultadoDiv = document.getElementById("resultado");
+                resultadoDiv.innerHTML = `x1 = ${x1}, x2 = ${x2}`;
+            }
+
+            const calcularButton = document.getElementById("calcular");
+            calcularButton.addEventListener("click", calcularRaizesTradicional);
+
+            const calcularButtonArrow = document.getElementById("calcular-arrow");
+            calcularButtonArrow.addEventListener("click", calcularRaizesArrow);
+        }
+    </script>
+</head>
+<body>
+    <h1>Equação de Segundo Grau</h1>
+    <p>3x² + 4x - 5 = 0</p>
+    <button id="calcular">Calcular (Método Tradicional)</button>
+    <button id="calcular-arrow">Calcular (Arrow Function)</button>
+    <div id="resultado"></div>
+</body>
+</html>

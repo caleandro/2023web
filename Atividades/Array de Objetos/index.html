@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array de Alunos</title>
+  <script>
+    
+    var alunos = [
+      {
+        nome: 'ana',
+        idade: 17,
+        nota: 8,
+        ano: '2º b'
+      },
+      {
+        nome: 'bruno',
+        idade: 16,
+        nota: 6,
+        ano: '2º C'
+      },
+      {
+        nome: 'veronica',
+        idade: 16,
+        nota: 9,
+        ano: '2º C'
+      },
+      {
+        nome: 'marta',
+        idade: 15,
+        nota: 5,
+        ano: '3º C'
+      },
+      {
+        nome: 'brenno',
+        idade: 19,
+        nota: 6,
+        ano: '3º C'
+      },
+      {
+        nome: 'maria',
+        idade: 14,
+        nota: 4,
+        ano: '1º F'
+      }
+    ];
+
+    
+    function retornarArrayCompleto() {
+      return alunos;
+    }
+
+    
+    function retornarInformacoesBrunno() {
+      var alunoBrunno = alunos.find(function(aluno) {
+        return aluno.nome.toLowerCase() === 'bruno';
+      });
+
+      return alunoBrunno;
+    }
+
+    
+    function retornarNotaMaria() {
+      var alunaMaria = alunos.find(function(aluno) {
+        return aluno.nome.toLowerCase() === 'maria';
+      });
+
+      return alunaMaria.nota;
+    }
+
+    
+    function retornarArrayJSON() {
+      return JSON.stringify(alunos);
+    }
+  </script>
+</head>
+<body>
+  <script>
+   
+    console.log('Array Completo:');
+    console.log(retornarArrayCompleto());
+
+    console.log('Informações do aluno Brunno:');
+    console.log(retornarInformacoesBrunno());
+
+    console.log('Nota da Maria:');
+    console.log(retornarNotaMaria());
+
+    console.log('Array de Alunos em formato JSON:');
+    console.log(retornarArrayJSON());
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Array de Alunos</title>
+  <script>
+   
+    var alunos = [
+      {
+        nome: 'ana',
+        idade: 17,
+        nota: 8,
+        ano: '2º b'
+      },
+      {
+        nome: 'bruno',
+        idade: 16,
+        nota: 6,
+        ano: '2º C'
+      },
+      {
+        nome: 'veronica',
+        idade: 16,
+        nota: 9,
+        ano: '2º C'
+      },
+      {
+        nome: 'marta',
+        idade: 15,
+        nota: 5,
+        ano: '3º C'
+      },
+      {
+        nome: 'brenno',
+        idade: 19,
+        nota: 6,
+        ano: '3º C'
+      },
+      {
+        nome: 'maria',
+        idade: 14,
+        nota: 4,
+        ano: '1º F'
+      }
+    ];
+
+  
+    function retornarArrayCompleto() {
+      return alunos;
+    }
+
+    
+    function retornarInformacoesBrunno() {
+      var alunoBrunno = alunos.find(function(aluno) {
+        return aluno.nome.toLowerCase() === 'bruno';
+      });
+
+      return alunoBrunno;
+    }
+
+    function retornarNotaMaria() {
+      var alunaMaria = alunos.find(function(aluno) {
+        return aluno.nome.toLowerCase() === 'maria';
+      });
+
+      return alunaMaria.nota;
+    }
+
+    function retornarArrayJSON() {
+      return JSON.stringify(alunos);
+    }
+  </script>
+</head>
+<body>
+  <script>
+    
+    console.log('Array Completo:');
+    console.log(retornarArrayCompleto());
+
+    console.log('Informações do aluno Brunno:');
+    console.log(retornarInformacoesBrunno());
+
+    console.log('Nota da Maria:');
+    console.log(retornarNotaMaria());
+
+    console.log('Array de Alunos em formato JSON:');
+    console.log(retornarArrayJSON());
+  </script>
+</body>
+</html>
